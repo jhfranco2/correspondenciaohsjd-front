@@ -15,6 +15,8 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from "@angular/flex-layout";
+import { MostrarComponent } from './componentes/correspondencia/libro/mostrar/mostrar.component';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { FlexLayoutModule } from "@angular/flex-layout";
     MenuComponent,
     InicioComponent,
     EditarComponent,
-    CrearComponent
+    CrearComponent,
+    MostrarComponent
   ],
   imports: [
     BrowserModule,
@@ -35,8 +38,6 @@ import { FlexLayoutModule } from "@angular/flex-layout";
     MatIconModule,
     MatButtonModule,
     FlexLayoutModule
-
-
   ],
   providers: [],
   bootstrap: [AppComponent]
